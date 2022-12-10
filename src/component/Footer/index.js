@@ -94,10 +94,10 @@ function Footer() {
     return (
         <section id="footer">
             <footer>
-                <div class="container">
-                    <div class="footer-con">
+                <div className="container">
+                    <div className="footer-con">
 
-                        <div class="footer-link">
+                        <div className="footer-link">
                             <div>
                                 <h4>Home</h4>
                                 {
@@ -110,7 +110,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div class="footer-link">
+                        <div className="footer-link">
                             <div>
                                 <h4>Resources</h4>
                                 {
@@ -123,7 +123,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div class="footer-link">
+                        <div className="footer-link">
                             <div>
                                 <h4>Community</h4>
                                 {
@@ -136,7 +136,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div class="footer-link">
+                        <div className="footer-link">
                             <div>
                                 <h4>Main links</h4>
                                 {
@@ -150,21 +150,21 @@ function Footer() {
                         </div>
 
 
-                        <div class="footer-subscribe">
+                        <div className="footer-subscribe">
                             <div>
                                 <h4>Subscribe Cirkle Newsletter</h4>
                                 <p>Subscribe to be the first one to know about updates. Enter your email</p>
                             </div>
-                            <div class="subscribe-f">
+                            <div className="subscribe-f">
                                 <input type="text" placeholder="Email Address" />
                                 <button><a href="#">Subscribe</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-bottom">
-                    <div class="container">
-                        <div class="f-bottom-con">
+                <div className="footer-bottom">
+                    <div className="container">
+                        <div className="f-bottom-con">
                             <h5><a href="#"> Besnik Creative Agency.</a></h5>
                             <a href="#"><img src="./images/fotter logo.png" alt="" /></a>
                             <div>

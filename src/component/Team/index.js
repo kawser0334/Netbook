@@ -29,26 +29,26 @@ function Team() {
 
     return (
         <section id="team-member">
-            <div class="container">
-                <div class="title-com">
+            <div className="container">
+                <div className="title-com">
                     <h4>Valuable Team</h4>
                     <h2>Our Active Members</h2>
                     <p>when an unknown printer took a galley of type and meeting fari scrambled it.</p>
                 </div>
-                <div class="team-btn">
+                <div className="team-btn">
                     <button><a href="#">Newst</a></button>
                     <button><a href="#">Popular</a></button>
-                    <button class="primary-btn team-btn-3"><a href="#">Active</a></button>
+                    <button className="primary-btn team-btn-3"><a href="#">Active</a></button>
                 </div>
-                <div class="team-mate">
+                <div className="team-mate">
                     {
                         teamMember?.map((singleProfile, index) => (
-                            <div key={index} class="team-people">
-                                <div class="team-img">
-                                    <img class="img-ellipse" src={singleProfile.abstrack} alt=" " />
+                            <div key={index} className="team-people">
+                                <div className="team-img">
+                                    <img className="img-ellipse" src={singleProfile.abstrack} alt=" " />
                                     <img src={singleProfile.img} alt="" />
                                 </div>
-                                <div class="team-info">
+                                <div className="team-info">
                                     <h4>{singleProfile.name}</h4>
                                     <p>{singleProfile.userName}</p>
                                 </div>

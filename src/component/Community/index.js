@@ -37,17 +37,17 @@ function Community() {
 
     return (
         <section id="our-community">
-            <div class="container">
-                <div class="title-com">
+            <div className="container">
+                <div className="title-com">
                     <h4>Our Community</h4>
                     <h2>Community Main Feature</h2>
                     <p>The wise man therefore always holds in these matters to this principle of selection.</p>
                 </div>
-                <div class="community">
+                <div className="community">
                     {
-                        communityCard.map((singleCard, index) => (<div key={index} class="community-card">
-                            <div class="card-com">
-                                <img class="icon-1" src={singleCard.icon} alt="" />
+                        communityCard.map((singleCard, index) => (<div key={index} className="community-card">
+                            <div className="card-com">
+                                <img className="icon-1" src={singleCard.icon} alt="" />
                                 <div>
                                     <h4>{singleCard.title}</h4>
                                     <p>{singleCard.text}</p>

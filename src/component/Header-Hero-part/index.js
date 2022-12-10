@@ -23,8 +23,8 @@ function HeaderHeroPart() {
     return (
         <section id="header">
             <nav>
-                <div class="container">
-                    <div class="nav">
+                <div className="container">
+                    <div className="nav">
                         <div>
                             <div>
                                 <a href="#"><img src="./images/logo.png" alt="" /></a>
@@ -40,7 +40,7 @@ function HeaderHeroPart() {
                                 </ul>
                             </div>
                         </div>
-                        <div class="search-div">
+                        <div className="search-div">
 
                             <form action="">
                                 <button type="submit"><img src="./icons/search.png" alt="" /></button>
@@ -48,15 +48,15 @@ function HeaderHeroPart() {
                             </form>
 
                             <div>
-                                <button class="log-button"><a href="#">Log in</a></button>
+                                <button className="log-button"><a href="#">Log in</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </nav>
             <section>
-                <div class="container">
-                    <div class="hero-section">
+                <div className="container">
+                    <div className="hero-section">
                         <div>
                             <h4 >Netbook community</h4>
                             <h1>Your Solutions For Community!</h1>
@@ -64,8 +64,8 @@ function HeaderHeroPart() {
 
 
                             <div>
-                                <button class="primary-btn"><a href="#">About More</a></button>
-                                <button class="secondary-btn"><a href="#">Invite Friend</a></button>
+                                <button className="primary-btn"><a href="#">About More</a></button>
+                                <button className="secondary-btn"><a href="#">Invite Friend</a></button>
                             </div>
                         </div>
 
